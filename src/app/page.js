@@ -10,6 +10,7 @@ import ContactUs from "@/components/contact-us";
 import Accordion from "@/components/faQs";
 import ContactForm from "@/components/contact-form";
 import * as TrustedAssets from "@/assets/trusted-partner-asset";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -32,8 +33,9 @@ export default function Home() {
         asset={TrustedAssets}
         title={"Our Trusted Partners"}
         theme={"light"}
-        mode={ "two"}
+        mode={"two"}
       />
+      <Footer />
     </main>
   );
 }
